@@ -1,25 +1,7 @@
-var add = function(a){
-    return function (b){
-        return a + b;
-    }
-};
+let multiply = function(x,y){
+    console.log(x*y);
+}
 
-var addToFive = add(5);
+let multiplyByTwo = multiply.bind(this, 2);
 
-// addToFive basically is this -> 
-// return function (b){
-//     return 5 + b;
-// }
-
-console.log(addToFive(1));
-
-// --------------------------------
-
-var avg = function (...n){
-    let tot = 0;
-    for (let i = 0; i < n.length; i++){
-        tot += n[i]
-    }
-
-    return tot/n.length
-};
+multiplyByTwo(5)

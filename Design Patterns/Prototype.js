@@ -4,8 +4,8 @@ function Car(){}
 Car.prototype.wheels = 4;
 
 // creating new instance
-Audi = new Car();
-Honda = new Car()
+let Audi = new Car();
+let Honda = new Car()
 
 Audi.wheels = 10;
 
