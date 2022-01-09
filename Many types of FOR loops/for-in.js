@@ -1,3 +1,5 @@
+// its all about keys and index
+
 // for in loop iterates over properties of an object
 // for in will loop through property name, index
 
