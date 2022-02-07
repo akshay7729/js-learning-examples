@@ -1,3 +1,5 @@
+// in maps we can set objects as keys
+
 const map = new Map([
   ["name", "Akshay"],
   ["age", 29],
@@ -17,5 +19,8 @@ console.log(map.has("name"));
 
 // size
 console.log(map.size);
+
+// convert map into an array
+console.log([...map]);
 
 console.log(map);
